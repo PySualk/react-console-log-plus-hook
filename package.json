@@ -26,6 +26,6 @@
   },
   "dependencies": {
     "console-log-plus": "^1.0.5",
-    "react": "^16.12.0"
+    "react": "^16.8.0"
   }
 }

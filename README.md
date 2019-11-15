@@ -1,5 +1,7 @@
 # react-console-log-plus-hook
 
+[![NPM version][npm-image]][npm-url] [![Dependency Status][daviddm-image]][daviddm-url]
+
 A custom [hook](https://reactjs.org/docs/hooks-intro.html) for React which allows to use [console-log-plus](https://www.npmjs.com/package/console-log-plus) easily in functional components.
 
 ## How to install
@@ -18,7 +20,11 @@ A custom [hook](https://reactjs.org/docs/hooks-intro.html) for React which allow
 import React from "react";
 import ReactDOM from "react-dom";
 
+import { useLogger } from "react-console-log-plus-hook";
+
 function App() {
+  const logger = useLogger();
+
   return (
     <button
       onClick={() => logger.clp({ type: "info", message: "You clicked me!" })}

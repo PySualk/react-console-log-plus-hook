@@ -1,0 +1,31 @@
+{
+  "name": "react-console-log-plus-hook",
+  "version": "0.0.1",
+  "description": "A custom hook for React which allows to use console-log-plus easily in functional components",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PySualk/react-console-log-plus-hook.git"
+  },
+  "keywords": [
+    "react",
+    "console-log-plus",
+    "react-hook"
+  ],
+  "author": "Klaus Wilhelmi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PySualk/react-console-log-plus-hook/issues"
+  },
+  "homepage": "https://github.com/PySualk/react-console-log-plus-hook#readme",
+  "peerDependencies": {
+    "react": "^16.8.0"
+  },
+  "dependencies": {
+    "console-log-plus": "^1.0.5",
+    "react": "^16.12.0"
+  }
+}

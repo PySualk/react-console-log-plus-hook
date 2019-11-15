@@ -1,6 +1,6 @@
 {
   "name": "react-console-log-plus-hook",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A custom hook for React which allows to use console-log-plus easily in functional components",
   "main": "index.js",
   "scripts": {

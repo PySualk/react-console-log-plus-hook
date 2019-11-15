@@ -1,7 +1,5 @@
 # react-console-log-plus-hook
 
-[![NPM version][npm-image]][npm-url] [![Dependency Status][daviddm-image]][daviddm-url]
-
 A custom [hook](https://reactjs.org/docs/hooks-intro.html) for React which allows to use [console-log-plus](https://www.npmjs.com/package/console-log-plus) easily in functional components.
 
 ## How to install
